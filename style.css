@@ -30,10 +30,9 @@ button:focus{
     position: relative;
     width: 100%;
     background-color: white;
-    background-image: url(backgroundCabecalho.png);
+    background-image: url(cab.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: -150px;
+    background-size: 150%;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.747);
     padding: 15px 0;
 }
@@ -48,11 +47,13 @@ button:focus{
     position: relative;
     display: flex;
     width: 100%;
+    background-color: rgb(0 0 0 / 80%);
 }
 #cxImgTxt img{
     border: solid rgba(255, 255, 255, 0.973) 3px;
-    border-radius: 4px;
-    width: 20%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
     position: relative;
     display: block;
 }
@@ -61,23 +62,23 @@ button:focus{
     width: 100%;
 }
 #Txt h2{
-    font-family: Gadugi, Arial, Helvetica, sans-serif;
+    font-family: Gadugi;
     color: rgba(255, 255, 255, 0.973);
 }
 #Txt p{
-    font-family: Gadugi, Arial, Helvetica, sans-serif;
+    font-family: Gadugi;
     color: rgb(233, 233, 233);
 }
 #Txt button{
     margin-top: 5px;
 }
 #cxnavbuts{
-    text-align: center;
-    margin-top: 15px;
+    text-align: left;
+    margin-top: 10px;
 }
 
 #cxnavbuts button{
-    margin: 0 5px;
+    margin-right: 5px;
 }
 /*dddd*/
 
@@ -167,8 +168,9 @@ button:focus{
 
 #cxImgTxt img{
     border: solid rgba(255, 255, 255, 0.973) 3px;
-    border-radius: 4px;
-    width: 20%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
     position: relative;
     display: block;
 }
@@ -191,14 +193,12 @@ button:focus{
     padding: 3.5px 6px;
 }
 #cxnavbuts{
-    text-align: center;
+    text-align: left;
     margin-top: 5px;
     font-size: 8pt;
-    padding: 3px 4px;
 }
 
 #cxnavbuts button{
-    margin: 0 4px;
     font-size: 9pt;
 }
 }
