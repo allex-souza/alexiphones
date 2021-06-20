@@ -35,6 +35,7 @@ button:focus{
     background-size: 150%;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.747);
     padding: 15px 0;
+    font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #cxImgTxt{
     position: relative;
@@ -42,6 +43,7 @@ button:focus{
     width: 95%;
     margin: 0 auto;
     height: 100%;
+    font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #dispflex{
     position: relative;
@@ -60,14 +62,17 @@ button:focus{
 #Txt{
     margin-left: 10px;
     width: 100%;
+    font-family:  Gadugi, Arial, Helvetica, sans-serif
 }
 #Txt h2{
     font-family: Gadugi;
     color: rgba(255, 255, 255, 0.973);
+    font-family:  Gadugi, Arial, Helvetica, sans-serif
 }
 #Txt p{
     font-family: Gadugi;
     color: rgb(233, 233, 233);
+    font-family:  Gadugi, Arial, Helvetica, sans-serif
 }
 #Txt button{
     margin-top: 5px;
