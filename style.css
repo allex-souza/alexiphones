@@ -72,17 +72,15 @@ button:focus{
 #Txt{
     margin-left: 10px;
     width: 100%;
-    font-family:  Gadugi, Arial, Helvetica, sans-serif
+    font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #Txt h2{
-    font-family: Gadugi;
     color: rgba(255, 255, 255, 0.973);
-    font-family:  Gadugi, Arial, Helvetica, sans-serif
+    font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #Txt p{
-    font-family: Gadugi;
     color: rgb(233, 233, 233);
-    font-family:  Gadugi, Arial, Helvetica, sans-serif
+    font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #Txt button{
     margin-top: 5px;
