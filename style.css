@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin:0;
     padding:0;
 }
 a{
@@ -38,7 +38,7 @@ button:focus{
     font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #cabecalho::after{
-    content: 's';
+    content: '';
     display: block;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.63);
@@ -60,6 +60,7 @@ button:focus{
     position: relative;
     display: flex;
     width: 100%;
+    font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #cxImgTxt img{
     border: solid rgba(255, 255, 255, 0.973) 3px;
@@ -75,12 +76,10 @@ button:focus{
     font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #Txt h2{
-    font-family: Gadugi;
     color: rgba(255, 255, 255, 0.973);
     font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #Txt p{
-    font-family: Gadugi;
     color: rgb(233, 233, 233);
     font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
