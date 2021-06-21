@@ -192,11 +192,11 @@ button:focus{
 
 }
 #Txt h2{
-    font-family: Gadugi;
+    font-family:  Gadugi, Arial, Helvetica, sans-serif;
     color: rgba(255, 255, 255, 0.973);
 }
 #Txt p{
-    font-family: Gadugi;
+    font-family:  Gadugi, Arial, Helvetica, sans-serif;
     color: rgb(233, 233, 233);
     font-size: 9pt;
 }
@@ -260,7 +260,7 @@ footer h2{
     input{
     font-size: 70%;
     font-weight: bolder;
-    background-color: #00a650c5;
+    background-color: #00a650;
     border: 1px solid #00a650;
     padding: 0 2px;
     display: block;
