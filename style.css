@@ -17,7 +17,7 @@ button{
     border-right: 1.5px solid #595959;
     cursor: pointer;
 }
-button:focus{
+/*button:focus{
     border-top: 2px solid #595959;
     border-left: 1.5px solid #595959;
     border-bottom: none;
@@ -75,10 +75,12 @@ button:focus{
     font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #Txt h2{
+    font-family: Gadugi;
     color: rgba(255, 255, 255, 0.973);
     font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #Txt p{
+    font-family: Gadugi;
     color: rgb(233, 233, 233);
     font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
@@ -189,7 +191,7 @@ button:focus{
 }
 #Txt{
     margin-left: 10px;
-
+    font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #Txt h2{
     font-family:  Gadugi, Arial, Helvetica, sans-serif;
@@ -257,12 +259,12 @@ footer h2{
     width: 56px;
     margin-top: -1px;
 }
-    input{
+    #input{
     font-size: 70%;
     font-weight: bolder;
-    background-color: #00a650;
+    background-color: #00a650c5;
     border: 1px solid #00a650;
-    padding: 0 2px;
+    padding: 1px 2px;
     display: block;
     color: white;
     position: absolute;
@@ -271,6 +273,7 @@ footer h2{
     width: 60px;
     border-radius: 3px;
     right: 15px;
+    font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 .a1111{
 width: 15px;
