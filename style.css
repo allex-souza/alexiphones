@@ -38,7 +38,7 @@ button{
     font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #cabecalho::after{
-    content: 's';
+    content: '';
     display: block;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.63);
