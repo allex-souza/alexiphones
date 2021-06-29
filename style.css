@@ -7,7 +7,7 @@ a{
     color: white;
 }
 button{
-    padding: 5px 50px;
+    padding: 5px 15px;
     font-weight: bolder;
     background-color: #0077ED;
     color: white;
@@ -38,7 +38,7 @@ button{
     font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #cabecalho::after{
-    content: '';
+    content: 's';
     display: block;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.63);
@@ -75,12 +75,10 @@ button{
     font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #Txt h2{
-    font-family: Gadugi;
     color: rgba(255, 255, 255, 0.973);
     font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
 #Txt p{
-    font-family: Gadugi;
     color: rgb(233, 233, 233);
     font-family:  Gadugi, Arial, Helvetica, sans-serif;
 }
@@ -129,21 +127,23 @@ button{
     margin: 0 auto 10px auto;
 }
 #secItens p{
-    font-family: Gadugi, sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     margin:10px 0;
-    color: #333;
-    font-size: 14px;
+    color: rgb(80, 80, 80);
+    font-size: 11pt;
 }
 #secItens h2{
-    font-family: Gadugi,sans-serif;
-    color: #1d1d1f;
-    font-weight: bold;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
+    color: #212124;
+    font-weight: normal;
     border-top: 1px solid rgba(51, 51, 51, 0.479);
-    margin-top: 6px;
+    margin-top: 5px;
     border-width: 100%;
+    font-size: 18pt;
+    padding-top: 5px;
 }
 #secItens h3{
-    font-family: Arial,sans-serif;
+    font-family: -apple-system,Helvetica ,Helvetica,Arial,sans-serif;
     color: #00a650;
     font-weight: normal;
     font-size: 14px;
@@ -265,7 +265,7 @@ footer h2{
     background-color: #00a650c5;
     border: 1px solid #00a650;
     padding: 1px 2px;
-    display: block;
+    display: none;
     color: white;
     position: absolute;
     bottom: 20px;
@@ -290,6 +290,33 @@ fill: #0077ED;
 
 
 
+/*pop*/
 
 
-/**/
+#cxsobre{
+    position: fixed;
+    display: none;
+    width: 80%;
+    background-color: #0077ee;
+    border:3px solid #005bb6;
+    border-radius: 2.5px;
+    padding: 10px;
+    z-index: 10;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 30%;
+    transform: translate(-50%,-0);
+    font-family:  Gadugi, Arial, Helvetica, sans-serif;
+}
+#cxsobre h2{
+    font-family:  Gadugi, Arial, Helvetica, sans-serif;
+    color: white;
+}
+#cxsobre p{
+    color: rgb(226, 226, 226);
+}
+
+#secItens .item .divdd{
+    color:rgb(34, 34, 34);
+    font-size: 10.5pt;
+}
