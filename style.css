@@ -41,7 +41,7 @@ button{
     content: 's';
     display: block;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.63);
+    background-color: rgba(0, 0, 0, 0.70);
     z-index: 0;
     width: 100%;
     top:0%;
