@@ -234,6 +234,15 @@ button{
     }
 }
 */
+
+#corr{
+    font-size: 8pt;
+    font-weight: bold;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5px;
+    display: block;
+}
 footer{
     background-image: url("cab.jpg");
     background-position: top;
@@ -259,13 +268,13 @@ footer h2{
     width: 56px;
     margin-top: -1px;
 }
-    #input{
+    input{
     font-size: 70%;
     font-weight: bolder;
     background-color: #00a650c5;
     border: 1px solid #00a650;
     padding: 1px 2px;
-    display: none;
+    display: block;
     color: white;
     position: absolute;
     bottom: 20px;
