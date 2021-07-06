@@ -267,6 +267,7 @@ footer h2{
     height: 16px;
     width: 56px;
     margin-top: -1px;
+    display:none;
 }
     input{
     font-size: 70%;
